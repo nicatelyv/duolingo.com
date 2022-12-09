@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.topnav {
+  width: 100%;
+  height: 70px;
+  background-color: #235390;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topnav .topnavitems {
+  width: 60%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topnav .topnavitems img {
+  width: 154px;
+  height: 36px;
+}
+.topnav .topnavitems ul {
+  overflow: hidden;
+  background-color: #235390;
+}
+.topnav .topnavitems li {
+  float: left;
+}
+.topnav .topnavitems li a, .topnav .topnavitems .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav .topnavitems li a:hover, .topnav .topnavitems .dropdown:hover .dropbtn {
+  background-color: #235390;
+}
+.topnav .topnavitems li.dropdown {
+  display: inline-block;
+}
+.topnav .topnavitems .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.topnav .topnavitems .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.topnav .topnavitems .dropdown-content a:hover {
+  background-color: #e4e2e2;
+  border-radius: 20px;
+}
+.topnav .topnavitems .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.firstsection {
+  width: 100%;
+  height: 100vh;
+  background-color: #235390;
+  background-image: url("../imgs/1sectionbgimg.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstsection .fsectionmain {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.firstsection .fsectionmain #firstseclogo {
+  display: flex;
+  align-items: center;
+}
+.firstsection .fsectionmain #firstsectext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+}
+.firstsection .fsectionmain #firstsectext h1 {
+  color: white;
+  font-size: 36px;
+}
+.firstsection .fsectionmain #firstsectext #getstarted {
+  margin-top: 50px;
+  width: 350px;
+  height: 50px;
+  background-color: #29db38;
+  border-radius: 15px;
+  border: 2px solid #178520;
+  border-bottom: 4px solid #147e1d;
+  cursor: pointer;
+}
+.firstsection .fsectionmain #firstsectext #getstarted a {
+  color: white;
+}
+.firstsection .fsectionmain #firstsectext #getstarted:hover {
+  background-color: #4bff5a;
+}
+.firstsection .fsectionmain #firstsectext #haveanaccount {
+  width: 350px;
+  height: 50px;
+  background-color: #235390;
+  border-radius: 15px;
+  border: 2px solid #0f243f;
+  border-bottom: 4px solid #0f243f;
+  cursor: pointer;
+}
+.firstsection .fsectionmain #firstsectext #haveanaccount a {
+  color: white;
+}
+.firstsection .fsectionmain #firstsectext #haveanaccount:hover {
+  background-color: #1d4477;
+}
+
+.secondsection {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+.secondsection .secondseccontainer {
+  width: 55%;
+  height: 100%;
+}
+.secondsection .secondseccontainer #TheWorldsLang {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.secondsection .secondseccontainer #TheWorldsLang img {
+  margin-left: 50px;
+  width: 185px;
+  height: 145px;
+}
+.secondsection .secondseccontainer #TheWorldsLang #twl_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.secondsection .secondseccontainer #TheWorldsLang #twl_text h2 {
+  font-size: 30px;
+}
+.secondsection .secondseccontainer #TheWorldsLang #twl_text p {
+  font-size: 20px;
+}
+.secondsection .secondseccontainer #LearningWithDuolingo {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.secondsection .secondseccontainer #LearningWithDuolingo #lwl_items {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.secondsection .secondseccontainer #LearningWithDuolingo #lwl_items #lwli_left {
+  width: 35%;
+  height: 300px;
+  border: 1px solid black;
+}
+.secondsection .secondseccontainer #LearningWithDuolingo #lwl_items #lwli_right {
+  width: 35%;
+  height: 300px;
+  border: 1px solid black;
+}/*# sourceMappingURL=main.css.map */

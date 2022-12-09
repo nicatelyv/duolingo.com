@@ -1,0 +1,144 @@
+// First Section Start
+.firstsection {
+    width: 100%;
+    height: 100vh;
+    background-color: #235390;
+    background-image: url("../imgs/1sectionbgimg.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .fsectionmain {
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+
+        #firstseclogo {
+            display: flex;
+            align-items: center;
+        }
+
+        #firstsectext {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 15px;
+
+            h1 {
+                color: white;
+                font-size: 36px;
+
+            }
+
+            #getstarted {
+                margin-top: 50px;
+                width: 350px;
+                height: 50px;
+                background-color: #29db38;
+                border-radius: 15px;
+                border: 2px solid #178520;
+                border-bottom: 4px solid #147e1d;
+                cursor: pointer;
+
+                a {
+                    color: white;
+                }
+            }
+
+            #getstarted:hover {
+                background-color: #4bff5a;
+            }
+
+            #haveanaccount {
+                width: 350px;
+                height: 50px;
+                background-color: #235390;
+                border-radius: 15px;
+                border: 2px solid #0f243f;
+                border-bottom: 4px solid #0f243f;
+                cursor: pointer;
+
+                a {
+                    color: white;
+                }
+            }
+
+            #haveanaccount:hover {
+                background-color: #1d4477;
+            }
+        }
+    }
+}
+
+// Firs Section End
+.secondsection {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+
+    .secondseccontainer {
+        width: 55%;
+        height: 100%;
+
+        #TheWorldsLang {
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-top: 50px;
+
+            img {
+                margin-left: 50px;
+                width: 185px;
+                height: 145px;
+            }
+
+            #twl_text {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+        }
+        #LearningWithDuolingo {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 50px;
+            #lwl_items {
+                width: 100%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                #lwli_left{
+                    width: 35%;
+                    height: 300px;
+                    border: 1px solid black;
+                }
+                #lwli_right{
+                    width: 35%;
+                    height: 300px;
+                    border: 1px solid black;
+                }
+            }
+        }
+    }
+}

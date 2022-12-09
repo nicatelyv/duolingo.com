@@ -1,0 +1,75 @@
+// Navbar Start
+.topnav{
+    width: 100%;
+    height: 70px;
+    background-color: #235390;
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .topnavitems{
+        width: 60%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width: 154px;
+            height: 36px;
+        }
+
+        ul {
+            overflow: hidden;
+            background-color: #235390;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover, .dropdown:hover .dropbtn {
+            background-color: #235390;
+          }
+          
+          li.dropdown {
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          }
+          
+          .dropdown-content a:hover {
+            background-color: #e4e2e2;
+            border-radius: 20px;
+
+          }
+          
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+    }
+}
+// Navbar End 
